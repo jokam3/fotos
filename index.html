@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Meine Fotogalerie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meine Fotogalerie</h1>
+  </header>
+
+  <main class="gallery">
+    <!-- Beispiel-Bildblock -->
+    <div class="gallery-item">
+      <img src="bilder/beispiel1.jpg" alt="Beschreibung 1">
+      <div class="overlay">Beschreibung 1</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="bilder/beispiel2.jpg" alt="Beschreibung 2">
+      <div class="overlay">Beschreibung 2</div>
+    </div>
+
+    <!-- Hier einfach mehr Bilder hinzufügen... -->
+  </main>
+
+  <div id="lightbox" class="lightbox hidden">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" src="" alt="">
+    <div class="caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
